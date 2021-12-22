@@ -1,0 +1,7 @@
+version: 0.0
+os: windows
+hooks:
+  ApplicationStart:
+    - location: .\scripts\newfoldercreator.ps1
+      timeout: 30
+      runas: administrator
