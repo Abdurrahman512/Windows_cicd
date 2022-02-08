@@ -4,7 +4,3 @@ hooks:
   ApplicationStart:
     - location: .\Scripts\newfoldercreator.ps1
       runas: administrator
-    - location: .\Scripts\newfoldercreator1.ps1
-      runas: administrator
-    - location: .\Scripts\newfoldercreator3.ps1
-      runas: administrator
