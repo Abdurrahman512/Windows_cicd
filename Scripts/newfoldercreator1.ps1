@@ -1,4 +1,5 @@
 #!/powershell
 
 echo "creating new folder in C drive"
-Set-Content C:\t\t\t\test\file.txt 'Welcome to NEW WORLD'
+New-Item -Path "C:\2" -Name "test2" -ItemType "directory"
+Set-Content C:\2\test2\file.txt 'appspec2'
