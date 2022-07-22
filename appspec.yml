@@ -2,5 +2,5 @@ version: 0.0
 os: windows
 hooks:
   ApplicationStart:
-    - location: .\Scripts\newfoldercreator.ps1
+    - location: Scripts/newfoldercreator.ps1
       runas: administrator
